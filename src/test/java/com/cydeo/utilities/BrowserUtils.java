@@ -6,6 +6,8 @@ In this class only general utility methods that are NOT related to some specific
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 
 import java.util.Set;
@@ -61,4 +63,14 @@ public class BrowserUtils {
         Assert.assertEquals(Driver.getDriver().getTitle(), expectedTitle);
 
     }
+
+
+    public static void selectFromDropdown(WebElement dropdown, String option){
+
+        Select select = new Select(dropdown);
+
+        select.selectByVisibleText(option);
+
+    }
+
 }
