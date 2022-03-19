@@ -1,4 +1,4 @@
-@etsy @etsySearchAndTitle
+@etsy @etsySearchAndTitle @task
 Feature: Etsy search and titles features
 
   Scenario: Etsy title verification

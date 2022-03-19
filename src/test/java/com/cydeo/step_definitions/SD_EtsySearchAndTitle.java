@@ -7,7 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class EtsySearchAndTitle_StepDefinitions {
+public class SD_EtsySearchAndTitle {
 
     EtsyHomePage etsyHomePage = new EtsyHomePage();
 

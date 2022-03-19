@@ -1,4 +1,4 @@
-@dataTableMonthDropdown
+@dataTableMonthDropdown @task
 Feature: Dropdown months feature
 
 

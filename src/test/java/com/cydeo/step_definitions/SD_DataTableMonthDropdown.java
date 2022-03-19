@@ -8,7 +8,7 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class DataTableMonthDropdown_StepDefinitions {
+public class SD_DataTableMonthDropdown {
 
     DropdownsPracticePage dropdownsPracticePage = new DropdownsPracticePage();
 

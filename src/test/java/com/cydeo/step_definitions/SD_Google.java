@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
 
-public class GoogleStepDefinitions {
+public class SD_Google {
 
     GoogleSearchPage googleSearchPage = new GoogleSearchPage();
 

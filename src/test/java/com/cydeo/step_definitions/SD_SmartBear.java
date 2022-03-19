@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.Objects;
 
-public class SmartBear_StepDefinitions {
+public class SD_SmartBear {
 
     SmartBearLoginPage smartBearLoginPage = new SmartBearLoginPage();
     SmartBearViewAllOrdersPage smartBearViewAllOrdersPage = new SmartBearViewAllOrdersPage();
