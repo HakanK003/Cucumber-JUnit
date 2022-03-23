@@ -12,8 +12,8 @@ public class SD_DataTableMonthDropdown {
 
     DropdownsPracticePage dropdownsPracticePage = new DropdownsPracticePage();
 
-    @Given("User is on the dropdowns page of practice tool")
-    public void user_is_on_the_dropdowns_page_of_practice_tool() {
+    @Given("User is on the dropdowns page of practice tool2")
+    public void user_is_on_the_dropdowns_page_of_practice_tool2() {
 
         Driver.getDriver().get("https://practice.cydeo.com/dropdown");
 
